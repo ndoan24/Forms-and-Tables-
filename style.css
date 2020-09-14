@@ -4,9 +4,23 @@
   padding: 16px;
   border: 1px solid #eaeaea;
 }
-      .forms {background-color:rgb(240,240,240)}
+      .forms {background-color:rgb(245,245,245)}
 
-.submit {
-  background: blue;
-  color: white;
-}
+      input[type=submit] {
+        width: 37em;  height: 5em;
+    }
+
+  
+    
+    .button [type=submit]
+    
+    {
+      background-color: skyblue;
+      border: none;
+      color: whitesmoke;
+      padding: 37px 5px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 13.5px;
+    }
