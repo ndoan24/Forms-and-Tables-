@@ -1,6 +1,12 @@
-{
+.forms {
   max-width: 480px;
   margin: 50px auto;
   padding: 16px;
   border: 1px solid #eaeaea;
+}
+      .forms {background-color:rgb(240,240,240)}
+
+.submit {
+  background: blue;
+  color: white;
 }
