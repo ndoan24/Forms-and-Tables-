@@ -12,10 +12,10 @@
 
   
     
-    .button [type=submit]
+    .submit [type=submit]
     
     {
-      background-color: skyblue;
+      background-color: navyblue;
       border: none;
       color: whitesmoke;
       padding: 37px 5px;
@@ -24,3 +24,15 @@
       display: inline-block;
       font-size: 13.5px;
     }
+
+    .submit {font-size: 13.5px}
+
+    #Submit{
+      
+      width: 480px;
+      padding: 16px;
+
+      background-color: darkcyan ;
+      color: white;
+      
+  }
