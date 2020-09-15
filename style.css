@@ -34,3 +34,22 @@
       color: white;
       
   } */
+
+  form {
+    max-width: 580px;
+    margin: 70px auto;
+    padding: 16px;
+    border: 1px solid #eaeaea;
+   
+  }
+
+table, td, th {
+
+  background-color: salmon;
+border: 5px solid rgba(58, 47, 47, 0.966);
+border-collapse: collapse;
+padding: 15px;
+text-align: left;
+border-spacing: 3px;
+margin-top: 85px;
+}"
