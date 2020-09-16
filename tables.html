@@ -12,20 +12,28 @@
 
     <header>
         <a class="nav" href="tables.html">Tables</a>
+        <a class="nav" href="index.html">Index</a>
 
     </header>
 
     <main>
         <h2>This is a Table!</h2>
         <table>
-            <caption>We love these songs!</caption>
-            <tr>
-                <th>Name</th>
-                <th>Birthday</th>
-                <th>Phone Number</th>
+            <caption div class="caption">Our Class- We love these songs!</caption>
+            <colgroup>
+                <col span="2" style="background-color: rgb(52, 17, 85);">
 
-            </tr>
+            </colgroup>            
+            
+            <thead>
 
+                <tr>
+                    <th>Name</th>
+                    <th>Birthday</th>
+                    <th>Phone Number</th>
+
+                </tr>
+            </thead>
             <tr>
 
                 <td>Ngoc Doan</td>
@@ -95,6 +103,15 @@
             </tr>
 
 
+            <!--Thi is tfootder example-->
+            <!-- <tfoot>
+<td>Name</td>
+<td>Favorite Musician</td>
+<td>Favorite Song</td>
+<td>Date Released</td>
+<td>In Stock</td>
+
+</tfoot> -->
 
         </table>
 
@@ -104,6 +121,62 @@
 
 
     </main>
+
+
+    <!--What did you eat today?-->
+    <!--4 tables headings-->
+    <!--At least 4 pieces of data-->
+    <!--Use the HTML5 elements-->
+    <!--Use the boilderpoint HTML-->
+    <!--Try a new element/attribute-->
+    <!--Share your link-->
+
+    <main>
+        <table>
+            <h2>What did you eat today?</h2>
+            <caption div="class"><strong>Meal Tracking 09.15.2020</strong></caption>
+            <colgroup>
+                <col span="3" style="background-color: rgb(52, 17, 85);">
+            <col style="background color=yellow">
+        
+            </colgroup>
+
+            <colgroup>
+            <col span="2" style=background-color:red">
+            <col style="background-color:yellow"> </colgroup>
+            
+            <tr>
+                <th>Names in Household</th>
+                <th>Breakfast</th>
+                <th>Snack</th>
+                <th>Lunch</th>
+                <th>Dinner</th>
+            </tr>
+
+    
+
+            <tr>
+                <td colspan="1" style=background-color:yellow;>Ngoc</td>
+                <td colspan="1" style=background-color:yellow;>I don't eat breakfast</td>
+                <td>Peanuts granola mix</td>
+                <td>Rice and stir-fry chicken</td>
+                <td>Rice and stir-fry chicken</td>
+
+            </tr>
+
+            <tr>
+                <td>Roommate 1</td>
+                <td>Bananas fruits bowl mix</td>
+                <td>granola bar</td>
+                <td>Pizza</td>
+                <td>Spaghetti</td>
+
+            </tr>
+
+        </table>
+    </main>
+
+
 
 </body>
 
